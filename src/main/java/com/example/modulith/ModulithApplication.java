@@ -19,7 +19,7 @@ public class ModulithApplication {
      */
     private static void ModulInformation() {
         ApplicationModules modules = ApplicationModules.of(ModulithApplication.class);
-        System.out.println("=== Applications moduler ===");
+        System.out.println("=== Applikationens moduler ===");
         modules.forEach(System.out::println);
     }
 }

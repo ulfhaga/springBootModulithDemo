@@ -266,14 +266,7 @@ Spring Modulith can externalize events to Kafka, RabbitMQ, etc.:
 - [Spring Modulith GitHub](https://github.com/spring-projects/spring-modulith)
 - [Event-Driven Architecture Patterns](https://martinfowler.com/articles/201701-event-driven.html)
 
-## 🤝 Contributing
+## Kill the application hard
 
-Feel free to fork this project and experiment with:
-- Adding more modules
-- Implementing event replay
-- Adding external message broker integration
-- Implementing saga patterns
+    kill -9 $(lsof -ti:8080)
 
-## 📝 License
-
-This project is for educational purposes and demonstration of Spring Modulith concepts.
