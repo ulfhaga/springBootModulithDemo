@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  * Domain event published when an order is placed.
  * This event is part of the order module's public API and can be consumed by other modules.
  */
-@Externalized("order.placed::#{orderDate}")
+// @Externalized("order.placed::#{orderDate}")
 public record OrderPlacedEvent(
     Long orderId,
     String customerName,

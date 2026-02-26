@@ -83,7 +83,7 @@ package com.example.modulith.order;
 
 ### Prerequisites
 
-- Java 17 or higher
+- Java 21
 - Maven 3.6+
 
 ### Build and Run

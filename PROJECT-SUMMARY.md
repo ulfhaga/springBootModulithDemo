@@ -98,8 +98,8 @@ All steps 3-4 happen **asynchronously** after step 2 completes!
 
 ## 🔍 Technologies Used
 
-- **Spring Boot 3.2.1** - Application framework
-- **Spring Modulith 1.1.1** - Modular architecture
+- **Spring Boot 4 ** - Application framework
+- **Spring Modulith 2.0.3** - Modular architecture
 - **Spring Data JPA** - Data persistence
 - **H2 Database** - In-memory database
 - **Lombok** - Boilerplate reduction
